@@ -1,6 +1,6 @@
 package problems;
 
-public class MidleOfTheLinkedList {
+public class MiddleOfTheLinkedList {
 
     public class ListNode {
         int val;
