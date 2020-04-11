@@ -1,6 +1,6 @@
 package problems;
 
-public class BackspaceStringCompare {
+public class BackspaceStringCompare0844 {
 
     public boolean backspaceCompare(String S, String T) {
         
