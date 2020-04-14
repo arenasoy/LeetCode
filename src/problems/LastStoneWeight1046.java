@@ -1,11 +1,12 @@
 package problems;
 
+import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class LastStoneWeight1046 {
 
     public int lastStoneWeight(int[] stones) {
-        PriorityQueue<Integer> queue = new PriorityQueue(Collections.reverseOrder());
+        PriorityQueue<Integer> queue = new PriorityQueue<Integer>(Collections.reverseOrder());
         
         for (int i = 0; i < stones.length; i++)
             queue.add(stones[i]);
