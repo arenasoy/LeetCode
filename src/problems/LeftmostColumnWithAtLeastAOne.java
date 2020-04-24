@@ -1,10 +1,16 @@
 package problems;
 
+import java.util.List;
+
 public class LeftmostColumnWithAtLeastAOne {
 
-    interface BinaryMatrix {
-       public int get(int x, int y) {}
-       public List<Integer> dimensions {}
+    class BinaryMatrix {
+       public int get(int x, int y) {
+           return 0;
+       }
+       public List<Integer> dimensions() {
+           return null;
+       }
     };
 
     public int leftMostColumnWithOne(BinaryMatrix binaryMatrix) {
