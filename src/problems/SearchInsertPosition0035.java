@@ -1,3 +1,5 @@
+package problems;
+
 public class SearchInsertPosition0035 {
 
     public int searchInsert(int[] nums, int target) {
